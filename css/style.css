@@ -48,7 +48,7 @@ input{
     opacity: 40%;
     outline:none;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 25px;
     margin: 7px;
 }
@@ -59,23 +59,19 @@ input::placeholder{
     font-family: Nunito;
 }
 
-#login-form input[type="text"]{
+#login-form input[type="text"],
+#todo-form input[type="text"]{
     cursor: pointer;
 }
 
 #login-form input::placeholder{
     font-size: 15px;
-    padding-left: 90px;
+    padding-left: 85px;
 }
 
 #todo-form input::placeholder{
     font-size: 15px;
     padding-left: 50px;
-}
-    
-#todo-form input[type="text"]{
-    cursor: pointer;
-    padding-left: 3px;
 }
 
 #login-form input[type="submit"]{
