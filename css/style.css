@@ -8,14 +8,13 @@ html{
     margin:0;
     padding:0;
 
-    position: relative;
+    position: absolute;
     height: 100vh;   
     width: 100vw;
     top: 0;
 }
 
 body{
-    position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -63,12 +62,15 @@ input::placeholder{
 #login-form input[type="text"],
 #todo-form input[type="text"]{
     cursor: pointer;
-    width: 280px;/*추가함*/
+}
+
+#login-form input[type="text"]{
+    width: 230px;
 }
 
 #login-form input::placeholder{
     font-size: 15px;
-    padding-left: 75px;
+    padding-left: 47px;
 }
 
 #todo-form input::placeholder{
@@ -86,7 +88,7 @@ input::placeholder{
 }
 
 #login-form{
-    margin-left:76px;
+   /* margin-left:76px;*/
 }
 
 #todo-list{
